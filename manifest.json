@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Show Blacklisted Sidebar",
+  "name": "Show Blacklisted Sidebar on yande.re",
   "version": "1.0",
-  "description": "Hiện #blacklisted-sidebar bị ẩn bởi CSS của trang",
+  "description": "The #blacklist-sidebar is hidden by the CSS of the yande.re website.",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -11,3 +11,4 @@
     }
   ]
 }
+
